@@ -1,0 +1,15 @@
+class camera:
+    def show_info(self):
+        print("photos")
+class phone:
+    def keypadphone(self):
+        print("jio phone")
+class smartphone(camera,phone):
+    def videocalling(self):
+        print("iphone")
+a=camera()
+b=phone()
+c=smartphone()
+c.show_info()
+c.keypadphone()
+c.videocalling()
